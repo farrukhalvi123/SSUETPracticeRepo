@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class AddProperty:
+class AddProperty():
     def __int__(self, driver):
         self.driver = driver
         self.addproperty = "//span[normalize-space()='Post Property FREE']"
